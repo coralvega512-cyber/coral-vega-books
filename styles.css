@@ -1,0 +1,9 @@
+:root { --max: 980px; }
+body { font-family: system-ui, Arial, sans-serif; margin: 0; line-height: 1.5; }
+header, main, footer { max-width: var(--max); margin: 0 auto; padding: 24px; }
+nav a { margin-right: 14px; text-decoration: none; }
+.hero { padding: 28px; border: 1px solid #ddd; border-radius: 14px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 16px; }
+.card { border: 1px solid #ddd; border-radius: 14px; padding: 16px; }
+.button { display: inline-block; padding: 10px 14px; border: 1px solid #333; border-radius: 10px; text-decoration: none; margin-right: 10px; }
+.small { color: #555; font-size: 0.95rem; }
